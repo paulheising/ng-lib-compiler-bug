@@ -1,4 +1,4 @@
 import { someValue } from './some-file';
 
-export const entry3 = 'Hello World, this is entry3';
+// someValue2 implicitly inherits the type from someValue
 export const someValue2 = someValue;

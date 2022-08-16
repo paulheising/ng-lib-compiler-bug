@@ -1,6 +1,6 @@
-import { of } from 'rxjs';
+import { FooInterface2 } from 'demo-lib/entry2';
 
-export const someValue = of({
+export const someValue = {
   foo: 'foo',
   bar: 'bar',
-});
+} as FooInterface2;
